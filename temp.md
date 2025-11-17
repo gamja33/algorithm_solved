@@ -21,8 +21,8 @@ esp32 by Espressif Systems 설치
 툴 > 보드 > ESP32 Arduino > ESP32S3 Dev Module 선택
 
 툴 > 포트 > ESP32S3가 연결된 COM 포트 선택
----
 
+---
 ##🔊 스피커 예제 코드 (Standard tone() API)
 C++
 ```
