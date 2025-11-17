@@ -87,6 +87,11 @@ ESP32에서 MP3 파일을 직접 디코딩하는 것은 매우 복잡합니다.
 3. XT_DAC_Audio라이브러리를 통해서 DAC가 없이 가능하다.
 
 **GitHub 링크: https://github.com/WeekendWarrior1/XTronical_XT_DAC_Audio_Mirror**
+**파일 다운로드 링크:  https://github.com/WeekendWarrior1/XTronical_XT_DAC_Audio_Mirror/archive/master.zip**
+
+적용법
+- 스케치 -> 라이브러리 포함 -> .zip라이브러리
+
 
 ## 🎧 기타 오디오 라이브러리 (컴파일 시 오래 걸림 주의)
 - ESP32-audioI2S
