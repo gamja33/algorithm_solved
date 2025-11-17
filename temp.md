@@ -1,6 +1,5 @@
-네, 보내주신 내용을 깔끔하게 마크다운(Markdown)으로 정리해 드릴게요.
 
-🛠️ ESP32 아두이노 IDE 설정 방법
+## 🛠️ ESP32 아두이노 IDE 설정 방법
 추가 보드 관리자 URL 등록
 
 파일 > 설정 (Preferences)
@@ -22,10 +21,10 @@ esp32 by Espressif Systems 설치
 툴 > 보드 > ESP32 Arduino > ESP32S3 Dev Module 선택
 
 툴 > 포트 > ESP32S3가 연결된 COM 포트 선택
-
-🔊 스피커 예제 코드 (Standard tone() API)
+---------------------------------------------------
+##🔊 스피커 예제 코드 (Standard tone() API)
 C++
-
+```
 // --- 오직 오디오 출력 핀 1개만 설정 ---
 const int AUDIO_L_PIN = 21; // PAM8403 L INPUT
 
@@ -62,6 +61,7 @@ void loop() {
   noTone(AUDIO_L_PIN); // 소리 멈춤
   delay(500); // 0.5초간 대기
 }
+```
 ⚠️ 중요 유의사항: 전원 문제
 PAM8403 (오디오 앰프 모듈)은 5V 전원이 필요합니다. ESP 보드의 5V (VIN) 핀에서 전원을 가져올 경우, 전압은 5V로 맞지만 전류가 부족하여 앰프가 제대로 작동하지 않습니다.
 
